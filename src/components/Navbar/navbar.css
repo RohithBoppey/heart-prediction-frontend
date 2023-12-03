@@ -1,0 +1,44 @@
+.custom-navbar {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    border-radius: 15px; /* Rounded edges */
+    transition: background 0.3s ease; /* Add transition for smooth color change */
+}
+
+
+.custom-logo img {
+    width: 40px;
+    /* Adjust the size as needed */
+}
+
+.custom-nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.custom-nav-links a:hover {
+    color: #ffd700;
+    text-decoration: underline;
+    /* Change the color as needed */
+}
+
+.custom-active-link {
+    font-weight: bold;
+}
+
+/* Optional: Add some styles to make it more visually appealing */
+.custom-nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.custom-logo {
+    display: flex;
+    align-items: center;
+}
